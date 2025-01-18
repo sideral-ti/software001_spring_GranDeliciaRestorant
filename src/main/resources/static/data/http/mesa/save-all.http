@@ -1,0 +1,62 @@
+### Variables
+@baseUrl = http://localhost:9000
+@contextPath = /sideralti/api/v1
+@apiPath = /rest/mesas
+
+### Guardar varios registros  --> Save All Method (saveAll())
+### Path completa: http://localhost:9000/sideralti/api/v1/rest/entity/bulk
+POST {{baseUrl}}{{contextPath}}{{apiPath}}/bulk
+Content-Type: application/json
+
+[
+  {
+    "numero": 1,
+    "capacidad": 4,
+    "estado": "DISPONIBLE"
+  },
+  {
+    "numero": 2,
+    "capacidad": 2,
+    "estado": "OCUPADA"
+  },
+  {
+    "numero": 3,
+    "capacidad": 6,
+    "estado": "DISPONIBLE"
+  },
+  {
+    "numero": 4,
+    "capacidad": 4,
+    "estado": "RESERVADA"
+  },
+  {
+    "numero": 5,
+    "capacidad": 8,
+    "estado": "DISPONIBLE"
+  },
+  {
+    "numero": 6,
+    "capacidad": 2,
+    "estado": "OCUPADA"
+  },
+  {
+    "numero": 7,
+    "capacidad": 4,
+    "estado": "DISPONIBLE"
+  },
+  {
+    "numero": 8,
+    "capacidad": 6,
+    "estado": "RESERVADA"
+  },
+  {
+    "numero": 9,
+    "capacidad": 2,
+    "estado": "DISPONIBLE"
+  },
+  {
+    "numero": 10,
+    "capacidad": 4,
+    "estado": "OCUPADA"
+  }
+]
