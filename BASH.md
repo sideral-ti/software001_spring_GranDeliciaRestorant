@@ -1,25 +1,25 @@
 # Bash Script
 
-```git
+```bash
 git add .
 git commit -m "COMMENT"
 ```
 
-```git
+```bash
 git add .
 git commit -m "COMMENT"
 git push
 ```
 
 
-```git
+```bash
 git status
 ```
 
-```git
+```bash
 git checkout developer/version1
 ```
 
-```git
+```bash
 git switch -c developer/version1
 ```
